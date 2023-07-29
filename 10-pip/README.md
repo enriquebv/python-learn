@@ -40,9 +40,9 @@ pip install -r requirements.txt # Install packages from requirements.txt
 
 1. Creates a virtual python environment to install packages in this dir:
 
-```bash
-python -m venv venv
-```
+   ```bash
+   python -m venv venv
+   ```
 
 2. Load `venv`:
 
@@ -60,15 +60,15 @@ python -m venv venv
 
 3. Install requirements:
 
-```
-pip install -r requirements.txt
-```
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-5. Run script **using environment pyhton**:
+4. Run script **using environment pyhton**:
 
-```bash
-./venv/bin/python3 . # Will execute __main__.py
-./venv/bin/python3 __main__.py # Same result
+   ```bash
+   ./venv/bin/python3 . # Will execute __main__.py
+   ./venv/bin/python3 __main__.py # Same result
 
-# Will prompt: True
-```
+   # Will prompt: True
+   ```
